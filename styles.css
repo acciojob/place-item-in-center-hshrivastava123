@@ -1,7 +1,16 @@
 
 /* Your CSS Code here. */
-.item{
+.holder{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+ flex-direction:row;
+ flex-wrap:wrap;
+ justify-content: space-around;   
+    
+}
+.item{
+    background-color: aqua;
+    margin:10px;
+    padding:30px;
+    font-size:40px;
 }
